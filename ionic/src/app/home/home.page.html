@@ -1,0 +1,17 @@
+
+<ion-header>
+
+<ion-toolbar color="primary">
+  <ion-title>Watson Demo</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-textarea rows="6" cols="20" [(ngModel)]="textValue" placeholder="Enter any notes here..."></ion-textarea>
+  </ion-item>
+
+  <div padding class="text-center">
+    <ion-button size="large" (click)="callWatson()">Large</ion-button>
+  </div>
+</ion-content>
